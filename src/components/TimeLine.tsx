@@ -24,7 +24,7 @@ export const TimeLine = () => {
 
             <Timeline.Connector>
               <Timeline.Separator />
-              <Timeline.Indicator bg="#7A5AF5" borderColor="#B794F4" />
+              <Timeline.Indicator bg="#e7f526ff" borderColor="#B794F4" />
             </Timeline.Connector>
 
             <Timeline.Content flex="1" />
@@ -39,7 +39,7 @@ export const TimeLine = () => {
               }}
             >
               <Timeline.Separator />
-              <Timeline.Indicator bg="#7A5AF5" borderColor="#B794F4" />
+              <Timeline.Indicator bg="#062076ff" borderColor="#B794F4" />
             </Timeline.Connector>
 
             <Timeline.Content flex="1">
@@ -81,7 +81,7 @@ export const TimeLine = () => {
               }}
             >
               <Timeline.Separator />
-              <Timeline.Indicator bg="#7A5AF5" borderColor="#B794F4" />
+              <Timeline.Indicator bg="#f40909ff" borderColor="#B794F4" />
             </Timeline.Connector>
 
             <Timeline.Content flex="1" />
@@ -96,7 +96,7 @@ export const TimeLine = () => {
               }}
             >
               <Timeline.Separator />
-              <Timeline.Indicator bg="#7A5AF5" borderColor="#B794F4" />
+              <Timeline.Indicator bg="#5accf5ff" borderColor="#B794F4" />
             </Timeline.Connector>
 
             <Timeline.Content flex="1">
