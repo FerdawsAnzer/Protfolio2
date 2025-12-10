@@ -1,5 +1,12 @@
+import type { IconType } from "react-icons";
+
 export type Skill = {
   name: string;
   level: number;
-  color:string; // e.g., from 0 to 100
+  color:string; 
+  icon:IconType;
+};
+export type SkillCategory = {
+  title: string;       // e.g. "Frontend"
+  items: Skill[];      // list of skills in the category
 };

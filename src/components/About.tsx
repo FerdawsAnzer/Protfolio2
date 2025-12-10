@@ -3,6 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import SlideCards from "./SlideCrads";
 import { TimeLine } from "./TimeLine";
 import { SkillChart } from "./SkillChart";
+import { Footer } from "./footer";
 export const About = () => {
   return (
     <Flex as="nav" w="100%" py={6} justify="center">
@@ -19,7 +20,9 @@ export const About = () => {
         {/*Do a Fade for SlideCard */}
         <SlideCards />
         <TimeLine />
+
         <SkillChart />
+        <Footer />
       </Flex>
     </Flex>
   );
