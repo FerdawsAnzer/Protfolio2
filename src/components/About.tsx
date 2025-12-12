@@ -19,9 +19,12 @@ export const About = () => {
         </Fade>
         {/*Do a Fade for SlideCard */}
         <SlideCards />
-        <TimeLine />
 
-        <SkillChart />
+        <TimeLine />
+        <Fade>
+          <SkillChart />
+        </Fade>
+
         <Footer />
       </Flex>
     </Flex>
