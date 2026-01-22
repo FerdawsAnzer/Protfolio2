@@ -1,6 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import { Typewriter } from "react-simple-typewriter";
 import { DeskSetupSection } from "./DeskSetupSection";
+import { Footer } from "./Footer";
 
 export const Home = () => {
   return (
@@ -28,13 +29,13 @@ export const Home = () => {
           </div>
         </Flex>
       </Flex>
-
       {/* Desk Setup Section */}
       <Flex justify="center" px={4}>
         <Flex maxW="800px" w="100%" direction="column">
           <DeskSetupSection />
         </Flex>
       </Flex>
+      <Footer />
     </Flex>
   );
 };

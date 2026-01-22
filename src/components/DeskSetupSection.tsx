@@ -18,7 +18,11 @@ export function DeskSetupSection() {
 
   return (
     <section>
-      <h2>My Desk Setup</h2>
+      <h2>
+        Hello, Ferdaws Here_ I’m a software engineering student passionate about
+        building web projects. This is my desk setup where I design, code, and
+        sip too much coffee.
+      </h2>
       {desks.map((desk) => (
         <DeskCard key={desk.id} desk={desk} />
       ))}

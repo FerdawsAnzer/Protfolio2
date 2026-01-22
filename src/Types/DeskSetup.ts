@@ -5,7 +5,10 @@ export type DeskSetup = {
   device: string;
   os: string;
   editor: string;
-  tools: string[];
+  tools: {
+    name: string;
+    image: string;
+  }[];
   stack: string[];
   updatedAt: string;
 };
