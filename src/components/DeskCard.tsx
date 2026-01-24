@@ -8,7 +8,14 @@ type Props = {
 export function DeskCard({ desk }: Props) {
   return (
     <div className="desk-card">
-      <Box borderRadius="md" overflow="hidden" mb={2} h="350px" w="560px">
+      <Box
+        borderRadius="md"
+        overflow="hidden"
+        mb={2}
+        h="350px"
+        w="560px"
+        ml={55}
+      >
         <img
           src={desk.image}
           alt={desk.title}
@@ -18,19 +25,29 @@ export function DeskCard({ desk }: Props) {
           }}
         />
       </Box>
+      <h1 style={{ fontSize: "20px", fontWeight: "450", marginLeft: 129 }}>
+        Desk setup visual generated using the <b>Setuply</b> app.
+      </h1>
       <Grid templateColumns="repeat(4, 2fr)" gap="4" mt={10} mb={10}>
         {desk.tools.map((tool) => (
           <Box
             key={tool.name}
-            h="80px"
+            h="120px"
             w="180px"
+            position="relative"
             borderRadius="md"
             overflow="hidden"
-            cursor="pointer"
             border="2px solid transparent"
-            position="relative"
-            _hover={{ borderColor: "teal.400", cursor: "pointer" }}
-            role="group"
+            cursor="pointer"
+            _hover={{
+              borderColor: "white",
+              "& .overlay": {
+                opacity: 1,
+              },
+              "& img": {
+                filter: "blur(2px)",
+              },
+            }}
           >
             <Image
               src={tool.image}
@@ -39,21 +56,19 @@ export function DeskCard({ desk }: Props) {
               h="100%"
               objectFit="cover"
               transition="filter 0.3s"
-              _groupHover={{ filter: "blur(2px)" }}
             />
-
             <Box
+              className="overlay"
               position="absolute"
-              inset={0}
-              bg="rgba(0,0,0,0.5)"
+              inset="0"
+              bg="blackAlpha.700"
               display="flex"
               alignItems="center"
               justifyContent="center"
-              opacity={0}
-              transition="opacity 0.3s"
-              _groupHover={{ opacity: 1 }}
+              opacity="0"
+              transition="opacity 0.3s ease"
             >
-              <Text color="black" role="group" fontWeight="bold">
+              <Text color="white" fontWeight="bold">
                 {tool.name}
               </Text>
             </Box>
