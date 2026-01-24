@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import { useEffect, useState } from "react";
 import type { DeskSetup } from "src/Types/DeskSetup";
 import { getDeskSetups } from "src/api/getDeskSetup";
@@ -18,14 +19,16 @@ export function DeskSetupSection() {
 
   return (
     <section>
-      <h2>
-        I’m a software engineering student passionate about building modern,
-        user-focused web applications.
-      </h2>
-      <h2>
-        This is my study desk — the space where I design interfaces, write code,
-        and turn ideas into real projects.
-      </h2>
+      <Fade>
+        <h2 className="fade-in">
+          I’m a software engineering student passionate about building modern,
+          user-focused web applications.
+        </h2>
+        <h2 className="fade-in" style={{ animationDelay: "0.3s" }}>
+          This is my study desk — the space where I design interfaces, write
+          code, and turn ideas into real projects.
+        </h2>
+      </Fade>
       {desks.map((desk) => (
         <DeskCard key={desk.id} desk={desk} />
       ))}
