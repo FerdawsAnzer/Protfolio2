@@ -39,7 +39,7 @@ export const Contact = () => {
             Let's connect.
           </Text>
           <Text fontSize="17px" fontWeight="450" color="gray.600">
-            Connect with me through any of these platforms.
+            Let’s connect — you can find me on the platforms below.
           </Text>
         </VStack>
 

@@ -15,7 +15,7 @@ export const TimeLine = () => {
               <Text fontSize="sm" color="gray.600">
                 Lyon, France | June – August 2025
               </Text>
-              <Text mt={2} fontSize="sm">
+              <Text fontSize="sm">
                 Designed mobile UIs with Unity & Flutter, integrated REST APIs,
                 created prototypes, and conducted user-testing sessions in an
                 Agile team.
@@ -49,7 +49,7 @@ export const TimeLine = () => {
               <Text fontSize="sm" color="gray.600">
                 Internship Project | Sept 2025 – Present
               </Text>
-              <Text mt={2} fontSize="sm">
+              <Text fontSize="sm">
                 Built hotel operations UI using React, Zustand & Supabase;
                 implemented secure authentication (JWT/OAuth2), CI/CD pipelines,
                 and AWS deployment.
@@ -66,12 +66,9 @@ export const TimeLine = () => {
               <Text fontSize="sm" color="gray.600">
                 Nicosia, Cyprus | April 2025
               </Text>
-              <Text mt={2} fontSize="sm">
+              <Text fontSize="sm">
                 Developed a responsive movie search platform using TMDb API with
                 React, dynamic filtering, and interactive UI components.
-              </Text>
-              <Text fontSize="sm" mt={1}>
-                GitHub: <strong>TrendingMovies-react</strong>
               </Text>
             </Timeline.Content>
 
@@ -106,14 +103,11 @@ export const TimeLine = () => {
               <Text fontSize="sm" color="gray.600">
                 Nicosia, Cyprus | May 2025
               </Text>
-              <Text mt={2} fontSize="sm">
+              <Text fontSize="sm">
                 Built secure login, transaction management, and role-based
                 permissions using Node.js and MySQL. Developed the frontend and
                 linked it to the backend for real-time operations. Collaborated
                 using Git and Agile practices.
-              </Text>
-              <Text fontSize="sm" mt={1}>
-                GitHub: <strong>Banking Management System</strong>
               </Text>
             </Timeline.Content>
           </Timeline.Item>

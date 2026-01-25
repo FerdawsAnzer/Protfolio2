@@ -1,7 +1,7 @@
 // data/projects.ts
 
 
-import img3 from  "./assets/imgs/project3.jpeg";
+import img3 from  "./assets/imgs/pms.png";
 import img4 from  "./assets/imgs/TrndingMovieP.png";
 import img5 from  "./assets/imgs/NoteBuds.png";
 import img6 from  "./assets/imgs/ExpensesIncomeTrackApp.png";
@@ -9,6 +9,13 @@ import type { CardsInfo } from "./Types/CardsInfo";
 
 
 export const CardData: CardsInfo[] = [
+   {
+    title: "Hotel Management System",
+    date: "01/10/25",
+    description: "A web app for managing hotel operations with role-based access: Frontoffice for receptionists to handle bookings and guest details, and Backoffice for managers/admins to manage rooms, shifts, and statistics.",
+    stack: "React, TypeScript, Supabase (PostgreSQL), and Zustand.",
+    image: img3,
+  },
   {
     title: "Expense & Income Tracker App",
     date: "24",
@@ -16,13 +23,7 @@ export const CardData: CardsInfo[] = [
     stack: "Java Swing, MySQL",
     image: img6,
   },
-  {
-    title: "Seattle Ferris",
-    date: "1/4/23",
-    description: "Ferris wheel at night in the rain",
-    stack: "Java Swing, MySQL",
-    image: img3,
-  },
+ 
   {
     title: "Trending Movies Finder",
     date: "2024",

@@ -16,7 +16,6 @@ export const About = () => {
       >
         <Fade duration={1500}>
           <h1 style={{ fontSize: "30px", fontWeight: "650" }}>About me</h1>
-          <h2>Who I am</h2>
         </Fade>
         {/*Do a Fade for SlideCard */}
         <SlideCards />
