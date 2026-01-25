@@ -1,5 +1,5 @@
 import  type { DeskSetup } from "src/Types/DeskSetup";
-import deskImage from "src/assets/imgs/Desk-removebg-preview.png"; // path relative to this file
+import deskImage from "public/imgs/Desk-removebg-preview.png"; // path relative to this file
 
 export const deskSetups: DeskSetup[] = [
   {
@@ -10,10 +10,10 @@ export const deskSetups: DeskSetup[] = [
     os: "Windows 11",
     editor: "VS Code",
     tools: [
-      { name: "Keyboard", image: "src/assets/imgs/keyboard.jpg" },
-      { name: "Monitor Stand", image: "src/assets/imgs/monitorStand.jpg" },
-      { name: "Monitor", image: "src/assets/imgs/monitor.jpg" },
-      { name: "Lamp", image: "src/assets/imgs/lamp.jpg" },
+      { name: "Keyboard", image: "/imgs/keyboard.jpg" },
+      { name: "Monitor Stand", image: "/imgs/monitorStand.jpg" },
+      { name: "Monitor", image: "/imgs/monitor.jpg" },
+      { name: "Lamp", image: "/imgs/lamp.jpg" },
     ],
     stack: ["React", "TypeScript"],
     updatedAt: "2026-01-20"

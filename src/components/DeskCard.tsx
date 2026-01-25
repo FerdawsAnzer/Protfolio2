@@ -1,6 +1,6 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Grid, Text, Image } from "@chakra-ui/react";
 import type { DeskSetup } from "src/Types/DeskSetup";
-import { Grid, Text, Image } from "@chakra-ui/react";
+
 type Props = {
   desk: DeskSetup;
 };
@@ -12,28 +12,40 @@ export function DeskCard({ desk }: Props) {
         borderRadius="md"
         overflow="hidden"
         mb={2}
-        h="350px"
-        w="560px"
-        ml={55}
+        // Responsive width & height
+        w={{ base: "90%", md: "560px" }}
+        h={{ base: "250px", md: "350px" }}
+        mx="auto" // center horizontally
       >
-        <img
+        <Image
           src={desk.image}
           alt={desk.title}
-          style={{
-            height: "100%",
-            width: "100%",
-          }}
+          w="100%"
+          h="100%"
+          objectFit="cover"
         />
       </Box>
-      <h1 style={{ fontSize: "20px", fontWeight: "450", marginLeft: 129 }}>
-        Desk setup visual generated using the <b>Setuply</b> app.
-      </h1>
-      <Grid templateColumns="repeat(4, 2fr)" gap="4" mt={10} mb={10}>
+
+      <Text
+        fontSize={{ base: "16px", md: "20px" }}
+        fontWeight="450"
+        textAlign="center"
+        mt={2}
+      >
+        My study setup inspiration for coding and design <b>Setuply</b> app.
+      </Text>
+
+      <Grid
+        templateColumns={{ base: "repeat(2, 1fr)", md: "repeat(4, 2fr)" }}
+        gap="4"
+        mt={10}
+        mb={10}
+      >
         {desk.tools.map((tool) => (
           <Box
             key={tool.name}
-            h="120px"
-            w="180px"
+            h={{ base: "100px", md: "120px" }}
+            w="100%"
             position="relative"
             borderRadius="md"
             overflow="hidden"
@@ -41,12 +53,8 @@ export function DeskCard({ desk }: Props) {
             cursor="pointer"
             _hover={{
               borderColor: "white",
-              "& .overlay": {
-                opacity: 1,
-              },
-              "& img": {
-                filter: "blur(2px)",
-              },
+              "& .overlay": { opacity: 1 },
+              "& img": { filter: "blur(2px)" },
             }}
           >
             <Image

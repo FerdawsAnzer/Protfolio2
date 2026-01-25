@@ -24,6 +24,10 @@ export function DeskSetupSection() {
           I’m a software engineering student passionate about building modern,
           user-focused web applications.
         </h2>
+        <h2>
+          I love creating interactive, intuitive interfaces that solve
+          real-world problems.
+        </h2>
         <h2 className="fade-in" style={{ animationDelay: "0.3s" }}>
           This is my study desk — the space where I design interfaces, write
           code, and turn ideas into real projects.

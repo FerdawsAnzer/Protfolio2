@@ -21,10 +21,10 @@ export const About = () => {
         <Fade duration={1500} delay={1400} triggerOnce>
           <SlideCards />
         </Fade>
-        <Fade duration={1500} delay={2800} triggerOnce>
+        <Fade duration={1500} delay={2300} triggerOnce>
           <TimeLine />
         </Fade>
-        <Fade duration={1500} delay={3800} triggerOnce>
+        <Fade duration={1500} delay={2300} triggerOnce>
           <SkillChart />
         </Fade>
 
