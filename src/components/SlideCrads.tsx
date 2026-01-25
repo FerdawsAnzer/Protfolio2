@@ -17,7 +17,7 @@ import {
   CardBody,
 } from "@chakra-ui/react";
 
-import { CardData } from "../cardsData";
+import { CardData } from "src/Data/cardsData";
 import type { CardsInfo } from "../Types/CardsInfo";
 
 const SlideCards = () => {

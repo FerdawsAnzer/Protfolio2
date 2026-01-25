@@ -1,11 +1,11 @@
 // data/projects.ts
 
 
-import img3 from  "./assets/imgs/pms.png";
-import img4 from  "./assets/imgs/TrndingMovieP.png";
-import img5 from  "./assets/imgs/NoteBuds.png";
-import img6 from  "./assets/imgs/ExpensesIncomeTrackApp.png";
-import type { CardsInfo } from "./Types/CardsInfo";
+import img3 from  "../assets/imgs/pms.png";
+import img4 from "../assets/imgs/TrndingMovieP.png";
+import img5 from  "../assets/imgs/NoteBuds.png";
+import img6 from  "../assets/imgs/ExpensesIncomeTrackApp.png";
+import type { CardsInfo } from "../Types/CardsInfo";
 
 
 export const CardData: CardsInfo[] = [

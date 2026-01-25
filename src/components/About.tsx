@@ -14,14 +14,17 @@ export const About = () => {
         px={4}
         direction="column"
       >
-        <Fade duration={1500}>
+        <Fade duration={1500} triggerOnce>
           <h1 style={{ fontSize: "30px", fontWeight: "650" }}>About me</h1>
         </Fade>
         {/*Do a Fade for SlideCard */}
-        <SlideCards />
-
-        <TimeLine />
-        <Fade>
+        <Fade duration={1500} delay={1400} triggerOnce>
+          <SlideCards />
+        </Fade>
+        <Fade duration={1500} delay={2800} triggerOnce>
+          <TimeLine />
+        </Fade>
+        <Fade duration={1500} delay={3800} triggerOnce>
           <SkillChart />
         </Fade>
 
