@@ -1,9 +1,11 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Text, VStack } from "@chakra-ui/react";
 import { Fade } from "react-awesome-reveal";
 import SlideCards from "./SlideCrads";
 import { TimeLine } from "./TimeLine";
 import { SkillChart } from "./SkillChart";
 import { Footer } from "./Footer";
+import { ProjectCard } from "./projectCrad";
+import { projectCardData } from "@/Data/projectCardData";
 
 export const About = () => {
   return (
@@ -24,6 +26,19 @@ export const About = () => {
         <Fade duration={1500} delay={2300} triggerOnce>
           <TimeLine />
         </Fade>
+        <VStack mt={10} mb={10}>
+          <Fade>
+            <Text fontSize="28px" fontWeight="650" mb={4} textAlign="start">
+              Projects
+            </Text>
+          </Fade>
+          <Fade duration={1500} delay={500} triggerOnce>
+            <ProjectCard project={projectCardData[0]} />
+            <ProjectCard project={projectCardData[1]} />
+            <ProjectCard project={projectCardData[2]} />
+          </Fade>
+        </VStack>
+
         <Fade duration={1500} delay={2300} triggerOnce>
           <SkillChart />
         </Fade>
