@@ -18,6 +18,7 @@ export const projectCardData : ProjectCardInfos[] = [
     description: "A React project that fetches trending movies using the TMDB API.",
     stack: ["React", "TMDB API", "CSS"],
     image: img4,
+    githubUrl:"https://github.com/FerdawsAnzer/TrendingMovies-react"
   },
   {
     title: "NoteBuds Web App",
@@ -25,6 +26,7 @@ export const projectCardData : ProjectCardInfos[] = [
     description: "A notes and to-do web app with login, registration, and responsive UI.",
     stack: ["JavaScript", "PHP", "MySQL", "HTML", "CSS"],
     image: img5,
+    githubUrl:"https://github.com/FerdawsAnzer/NoteBuds"
   },
   {
     title: "Expense & Income Tracker App",
@@ -32,5 +34,6 @@ export const projectCardData : ProjectCardInfos[] = [
     description: "A Java Swing app to manage daily expenses and incomes with MySQL support.",
     stack: ["Java Swing", "MySQL"],
     image: img6,
+    githubUrl:"https://github.com/FerdawsAnzer/-ExpensesIncomesTracker"
   }
 ]

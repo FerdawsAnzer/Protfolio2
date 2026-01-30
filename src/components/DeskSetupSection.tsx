@@ -27,7 +27,6 @@ export function DeskSetupSection() {
       </Fade>
 
       <Fade duration={1500} delay={300} triggerOnce>
-        {" "}
         <h2>
           I love creating interactive, intuitive interfaces that solve
           real-world problems.
@@ -49,8 +48,8 @@ export function DeskSetupSection() {
           style={{ animationDelay: "0.3s", marginTop: "1rem" }}
         >
           <b>
-            Frontend-focused developer creating accessible and responsive web
-            experiences.
+            Aspiring full-stack developer with a strong frontend foundation and
+            growing backend experience.
           </b>
         </h2>
       </Fade>

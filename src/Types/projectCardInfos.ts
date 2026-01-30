@@ -4,4 +4,5 @@ export interface ProjectCardInfos {
   description: string;
   stack: string[];
   image: string;
+  githubUrl?: string;
 }
