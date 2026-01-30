@@ -30,7 +30,7 @@ export const TimeLine = () => {
             <Timeline.Content flex="1" />
           </Timeline.Item>
 
-          {/* 2 — Property Management System */}
+          {/* 2 —Hotel Management System */}
           <Timeline.Item>
             <Timeline.Content flex="1" />
             <Timeline.Connector
@@ -44,7 +44,7 @@ export const TimeLine = () => {
 
             <Timeline.Content flex="1">
               <Timeline.Title fontWeight="bold">
-                Property Management System (PMS)
+                Hotel Management System (PMS)
               </Timeline.Title>
               <Text fontSize="sm" color="gray.600">
                 Internship Project | Sept 2025 – Present
@@ -55,33 +55,6 @@ export const TimeLine = () => {
                 and AWS deployment.
               </Text>
             </Timeline.Content>
-          </Timeline.Item>
-
-          {/* 3 — Movie Search Application */}
-          <Timeline.Item>
-            <Timeline.Content flex="1">
-              <Timeline.Title fontWeight="bold">
-                Movie Listing & Search Application
-              </Timeline.Title>
-              <Text fontSize="sm" color="gray.600">
-                Nicosia, Cyprus | April 2025
-              </Text>
-              <Text fontSize="sm">
-                Developed a responsive movie search platform using TMDb API with
-                React, dynamic filtering, and interactive UI components.
-              </Text>
-            </Timeline.Content>
-
-            <Timeline.Connector
-              _before={{
-                bgGradient: "linear(to-b, #7A5AF5, #B794F4)",
-              }}
-            >
-              <Timeline.Separator />
-              <Timeline.Indicator bg="#f40909ff" borderColor="#B794F4" />
-            </Timeline.Connector>
-
-            <Timeline.Content flex="1" />
           </Timeline.Item>
 
           {/* 4 — Banking Management System (NEW ONE HERE) */}

@@ -5,9 +5,9 @@ import img5 from  "public/imgs/NoteBuds.png";
 import img6 from  "public/imgs/ExpensesIncomeTrackApp.png";
 export const projectCardData : ProjectCardInfos[] = [
   {
-    title: "Project Management System", 
-    date: "March 2023",
-    description: "A comprehensive project management web application that allows teams to collaborate, track progress, and manage tasks efficiently.",
+    title: "Hotel Management System", 
+    date: "October 2025",
+    description: "A web app for managing hotel operations with role-based access: Frontoffice for receptionists to handle bookings and guest details, and Backoffice for managers/admins to manage rooms, shifts, and statistics.",
     stack: ["React", "Node.js", "Express", "MongoDB"],
     image: img3,
   },

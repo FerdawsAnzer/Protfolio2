@@ -6,22 +6,18 @@ type Props = {
 export const ProjectCard = ({ project }: Props) => {
   return (
     <Card.Root
+      w="100%"
       flexDirection="row"
       overflow="hidden"
-      maxW="xl"
       h="228px"
       boxShadow="lg"
       borderRadius="xl"
     >
-      <Image
-        objectFit="cover"
-        maxW="200px"
-        src={project.image}
-        alt="Caffe Latte"
-      />
+      <Image objectFit="cover" maxW="200px" src={project.image} />
       <Box>
         <Card.Body p="6">
           <Card.Title mb="2">{project.title}</Card.Title>
+
           <Card.Description>{project.description}</Card.Description>
           <HStack mt="4">
             <Badge color="blue.500">{project.stack[0]}</Badge>
