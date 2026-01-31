@@ -20,7 +20,7 @@ export const ProjectCard = ({ project }: Props) => {
         w="100%"
         flexDirection="row"
         overflow="hidden"
-        h="228px"
+        h="240px"
         boxShadow="lg"
         borderRadius="xl"
         cursor="pointer"
@@ -28,7 +28,8 @@ export const ProjectCard = ({ project }: Props) => {
       >
         <Image
           objectFit="cover"
-          maxW="200px"
+          w="100%"
+          maxW="250px"
           src={project.image}
           alt={project.title}
         />
