@@ -12,7 +12,7 @@ export const About = () => {
     <Flex as="nav" w="100%" py={6} justify="center">
       <Flex
         w="100%"
-        maxW="1100px" // ← Fixed width, centered
+        maxW="800px" // ← Fixed width, centered
         px={4}
         direction="column"
       >

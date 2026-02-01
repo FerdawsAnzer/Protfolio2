@@ -20,7 +20,7 @@ export const ProjectCard = ({ project }: Props) => {
         w="100%"
         flexDirection="row"
         overflow="hidden"
-        h="240px"
+        h="260px"
         boxShadow="lg"
         borderRadius="xl"
         cursor="pointer"
