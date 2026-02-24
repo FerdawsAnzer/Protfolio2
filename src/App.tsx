@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 function App() {
-  // 1️⃣ Initialize state from localStorage if available
   const [activeTab, setActiveTab] = useState<string>(() => {
     return localStorage.getItem("activeTab") || "Home";
   });
