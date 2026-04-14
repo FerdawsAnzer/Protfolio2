@@ -24,6 +24,15 @@ export const About = () => {
           <SlideCards />
         </Fade>
         <Fade duration={1500} delay={2300} triggerOnce>
+          <Text
+            fontSize="28px"
+            fontWeight="650"
+            mb={4}
+            mt={50}
+            textAlign="start"
+          >
+            Work Experience
+          </Text>
           <TimeLine />
         </Fade>
         <VStack mt={10} mb={10} maxW="xxl" w="100%" align="stretch">

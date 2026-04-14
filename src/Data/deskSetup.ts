@@ -1,11 +1,10 @@
 import  type { DeskSetup } from "src/Types/DeskSetup";
-import deskImage from "public/imgs/Desk-removebg-preview.png"; // path relative to this file
 
 export const deskSetups: DeskSetup[] = [
   {
     id: "main-desk",
     title: "Main Study Desk",
-    image: deskImage,
+    image: "/imgs/Desk-removebg-preview.png",
     device: "Windows Laptop",
     os: "Windows 11",
     editor: "VS Code",
