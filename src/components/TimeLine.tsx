@@ -10,18 +10,17 @@ export const TimeLine = () => {
           <Timeline.Item>
             <Timeline.Content flex="1">
               <Timeline.Title fontWeight="bold">
-                Software Developer Intern — EventokenX
+                Hotel Management System (PMS)
               </Timeline.Title>
               <Text fontSize="sm" color="gray.600">
-                Lyon, France | June – August 2025
+                Internship Project | June – September 2025
               </Text>
               <Text fontSize="sm">
-                Designed mobile UIs with Unity & Flutter, integrated REST APIs,
-                created prototypes, and conducted user-testing sessions in an
-                Agile team.
+                Built hotel operations UI using React, Zustand & Supabase;
+                implemented secure authentication (JWT/OAuth2) and role-based
+                access control for receptionists and managers.
               </Text>
             </Timeline.Content>
-
             <Timeline.Connector>
               <Timeline.Separator />
               <Timeline.Indicator bg="#e7f526ff" borderColor="#B794F4" />
@@ -44,45 +43,40 @@ export const TimeLine = () => {
 
             <Timeline.Content flex="1">
               <Timeline.Title fontWeight="bold">
-                Hotel Management System (PMS)
+                Software Developer Intern — EventokenX
               </Timeline.Title>
               <Text fontSize="sm" color="gray.600">
-                Internship Project | Sept 2025 – Present
+                Lyon, France | October – February 2026
               </Text>
               <Text fontSize="sm">
-                Built hotel operations UI using React, Zustand & Supabase;
-                implemented secure authentication (JWT/OAuth2), CI/CD pipelines,
-                and AWS deployment.
+                Designed mobile UIs with Unity & Flutter, integrated REST APIs,
+                created prototypes, and conducted user-testing sessions in an
+                Agile team.
               </Text>
             </Timeline.Content>
           </Timeline.Item>
-
-          {/* 4 — Banking Management System (NEW ONE HERE) */}
+          {/* 3-Sign Langauge Translator  */}
           <Timeline.Item>
-            <Timeline.Content flex="1" />
-            <Timeline.Connector
-              _before={{
-                bgGradient: "linear(to-b, #7A5AF5, #B794F4)",
-              }}
-            >
-              <Timeline.Separator />
-              <Timeline.Indicator bg="#5accf5ff" borderColor="#B794F4" />
-            </Timeline.Connector>
-
             <Timeline.Content flex="1">
               <Timeline.Title fontWeight="bold">
-                Banking Management System — Team Project
+                Real-Time Sign Language Translation System (Glove-Based) — CIU
               </Timeline.Title>
               <Text fontSize="sm" color="gray.600">
-                Nicosia, Cyprus | May 2025
+                Nicosia, North Cyprus | November 2025 – Ongoing
               </Text>
               <Text fontSize="sm">
-                Built secure login, transaction management, and role-based
-                permissions using Node.js and MySQL. Developed the frontend and
-                linked it to the backend for real-time operations. Collaborated
-                using Git and Agile practices.
+                team-based capstone project focused on developing a real-time
+                sign language translation system using a sensor-based glove and
+                AI-based gesture recognition.
               </Text>
             </Timeline.Content>
+
+            <Timeline.Connector>
+              <Timeline.Separator />
+              <Timeline.Indicator bg="#e7f526ff" borderColor="#B794F4" />
+            </Timeline.Connector>
+
+            <Timeline.Content flex="1" />
           </Timeline.Item>
         </Timeline.Root>
       </Flex>

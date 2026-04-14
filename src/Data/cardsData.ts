@@ -1,8 +1,4 @@
-// data/projects.ts
-import img3 from  "public/imgs/pms.png";
-import img4 from "public/imgs/TrndingMovieP.png";
-import img5 from  "public/imgs/NoteBuds.png";
-import img6 from  "public/imgs/ExpensesIncomeTrackApp.png";
+
 import type { CardsInfo } from "../Types/CardsInfo";
 
 
@@ -12,14 +8,21 @@ export const CardData: CardsInfo[] = [
     date: "01/10/25",
     description: "A web app for managing hotel operations with role-based access: Frontoffice for receptionists to handle bookings and guest details, and Backoffice for managers/admins to manage rooms, shifts, and statistics.",
     stack: "React, TypeScript, Supabase (PostgreSQL), and Zustand.",
-    image: img3,
+    image: "/imgs/pms.png",
+  },
+  {
+    title: "EvenTokenX-app",
+    date: "2025",
+    description: "A phone app for event management and ticketing, allowing users to create events, manage attendees, and sell tickets online.",
+    stack: "Figma,C#, Rest API, PostgreSQL , Unity",
+    image: "/imgs/EvenTokenX.png",
   },
   {
     title: "Expense & Income Tracker App",
     date: "24",
     description: "A Java Swing app to manage daily expenses and incomes with MySQL support.",
     stack: "Java Swing, MySQL",
-    image: img6,
+    image: "/imgs/ExpensesIncomeTrackApp.png",
   },
  
   {
@@ -27,13 +30,14 @@ export const CardData: CardsInfo[] = [
     date: "2024",
     description: "A React project that fetches trending movies using the TMDB API.",
     stack: "React, TMDB API, CSS",
-    image: img4,
+    image: "/imgs/TrndingMovieP.png",
   },
   {
     title: "NoteBuds Web App",
     date: "2023",
     description: "A notes and to-do web app with login, registration, and responsive UI.",
     stack: "JavaScript, PHP, MySQL, HTML, CSS",
-    image: img5,
+    image: "/imgs/NoteBuds.png",
   },
+  
 ];
