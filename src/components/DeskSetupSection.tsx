@@ -26,13 +26,6 @@ export function DeskSetupSection() {
         </h2>
       </Fade>
 
-      <Fade duration={1500} delay={300} triggerOnce>
-        <h2>
-          I love creating interactive, intuitive interfaces that solve
-          real-world problems.
-        </h2>
-      </Fade>
-
       <Fade duration={1500} delay={600} triggerOnce>
         <h2
           className="fade-in"
