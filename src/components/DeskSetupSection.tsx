@@ -19,22 +19,15 @@ export function DeskSetupSection() {
 
   return (
     <section>
-      <Fade duration={1500} triggerOnce>
-        <h2 className="fade-in">
-          I’m a software engineering student passionate about building modern,
-          user-focused web applications.
-        </h2>
-      </Fade>
-
       <Fade duration={1500} delay={600} triggerOnce>
         <h2
           className="fade-in"
           style={{ animationDelay: "0.3s", marginTop: "0.5rem" }}
         >
-          Backend developer focused on building scalable web applications and
-          real-time systems. I enjoy developing reliable backend architectures
-          and full-stack solutions that handle real-time data and system
-          integration, including IoT-based applications.
+          Backend-focused full-stack developer building scalable web
+          applications and real-time systems. I specialize in backend
+          architecture and work on applications involving real-time data
+          processing and IoT integration.
         </h2>
       </Fade>
       <Fade duration={1500} delay={700} triggerOnce>
