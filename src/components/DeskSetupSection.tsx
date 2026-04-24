@@ -38,20 +38,17 @@ export function DeskSetupSection() {
           className="fade-in"
           style={{ animationDelay: "0.3s", marginTop: "0.5rem" }}
         >
-          This is my study desk — the space where I design interfaces, write
-          code, and turn ideas into real projects.
+          Backend developer focused on building scalable web applications and
+          real-time systems. I enjoy developing reliable backend architectures
+          and full-stack solutions that handle real-time data and system
+          integration, including IoT-based applications.
         </h2>
       </Fade>
       <Fade duration={1500} delay={700} triggerOnce>
         <h2
           className="fade-in"
           style={{ animationDelay: "0.3s", marginTop: "1rem" }}
-        >
-          <b>
-            Aspiring full-stack developer with a strong frontend foundation and
-            growing backend experience.
-          </b>
-        </h2>
+        ></h2>
       </Fade>
       <Fade duration={1500} delay={1000} triggerOnce>
         {desks.map((desk) => (
