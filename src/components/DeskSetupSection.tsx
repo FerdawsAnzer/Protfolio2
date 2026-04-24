@@ -25,9 +25,10 @@ export function DeskSetupSection() {
           style={{ animationDelay: "0.3s", marginTop: "0.5rem" }}
         >
           Backend-focused full-stack developer building scalable web
-          applications and real-time systems. I specialize in backend
-          architecture and work on applications involving real-time data
-          processing and IoT integration.
+          applications and real-time systems, with hands-on experience in API
+          design, real-time data processing, and IoT integration. Focused on
+          building efficient, reliable systems and solving practical problems
+          through software.
         </h2>
       </Fade>
       <Fade duration={1500} delay={700} triggerOnce>
