@@ -27,7 +27,7 @@ export function DeskCard({ desk }: Props) {
       </Box>
 
       <Text
-        fontSize={{ base: "16px", md: "20px" }}
+        fontSize={{ base: "14px", md: "18px" }}
         fontWeight="450"
         textAlign="center"
         mt={2}
