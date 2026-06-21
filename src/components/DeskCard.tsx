@@ -27,13 +27,13 @@ export function DeskCard({ desk }: Props) {
       </Box>
 
       <Text
-        fontSize={{ base: "14px", md: "18px" }}
+        fontSize={{ base: "14px", md: "17px" }}
         fontWeight="450"
         textAlign="center"
         mt={2}
       >
-        3D desk assets from <b>Setuply : Build & Focus</b> the app that inspired
-        this little corner of my portfolio. © Setuply-Elif Bilge Parlak
+        3D desk assets from <b> Setuply : Build & Focus </b> the app that
+        inspired this little corner of my portfolio. © Setuply-Elif Bilge Parlak
       </Text>
 
       <Grid
