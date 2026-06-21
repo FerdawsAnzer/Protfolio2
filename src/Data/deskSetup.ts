@@ -9,7 +9,7 @@ export const deskSetups: DeskSetup[] = [
     os: "Windows 11",
     editor: "VS Code",
     tools: [
-      { name: "Keyboard", image: "/imgs/keyboard.jpg" },
+      { name: "Keyboard  ", image: "/imgs/keyboard.jpg" },
       { name: "Monitor Stand", image: "/imgs/monitorStand.jpg" },
       { name: "Monitor", image: "/imgs/monitor.jpg" },
       { name: "Lamp", image: "/imgs/lamp.jpg" },

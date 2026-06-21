@@ -32,7 +32,8 @@ export function DeskCard({ desk }: Props) {
         textAlign="center"
         mt={2}
       >
-        My study setup inspiration for coding and design <b>Setuply</b> app.
+        3D desk assets from <b>Setuply : Build & Focus</b> the app that inspired
+        this little corner of my portfolio. © Setuply-Elif Bilge Parlak
       </Text>
 
       <Grid
