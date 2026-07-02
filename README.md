@@ -90,3 +90,49 @@ src
 ```
 
 ---
+# 🎯 Features
+
+- Responsive Layout
+- Smooth Scrolling
+- Animated Sections
+- Project Showcase
+- Skills Timeline
+- Contact Section
+- Download Resume
+- Interactive Desk Setup
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/FerdawsAnzer/Protfolio2.git
+```
+
+Go into the project
+
+```bash
+cd Protfolio2
+```
+
+Install packages
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Create production build
+
+```bash
+npm run build
+```
+
+---
