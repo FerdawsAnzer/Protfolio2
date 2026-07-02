@@ -22,13 +22,14 @@ A modern portfolio website showcasing my projects, technical skills, and journey
 
 ## 🌐 Live Demo
 
-🔗 **Coming Soon**
+🔗 **(https://ferdawsanzer.netlify.app/)**
 
 ---
 
 ## 📸 Preview
 
-> Replace this image after deployment.
+<img width="1595" height="847" alt="image" src="https://github.com/user-attachments/assets/c93154ca-b89f-4b69-b7d5-1aae5e582ad1" />
+
 
 <p align="center">
 
