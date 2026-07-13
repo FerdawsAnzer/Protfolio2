@@ -1,4 +1,4 @@
-# 💼 Firdaws Anzar Portfolio
+# 💼 Ferdaws Anzer Portfolio
 
 ### Building modern, responsive, and user-focused web applications.
 
@@ -136,3 +136,7 @@ npm run build
 ```
 
 ---
+## 👤 Author
+**Ferdaws Anzer**
+- LinkedIn: [ferdaws-anzer](https://www.linkedin.com/in/ferdaws-anzer-71152b29b)
+- GitHub: [@FerdawsAnzer](https://github.com/FerdawsAnzer)
