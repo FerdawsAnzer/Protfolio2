@@ -1,73 +1,142 @@
-# React + TypeScript + Vite
+# 💼 Ferdaws Anzer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Building modern, responsive, and user-focused web applications.
 
-Currently, two official plugins are available:
+<p align="center">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakraui&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge&logo=framer&logoColor=white)
 
-## React Compiler
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p align="center">
 
-## Expanding the ESLint configuration
+A modern portfolio website showcasing my projects, technical skills, and journey as a software developer.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+</p>
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🌐 Live Demo
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+🔗 **https://ferdawsanzer.netlify.app/**
+
+---
+
+## 📸 Preview
+
+<img width="1595" height="847" alt="image" src="https://github.com/user-attachments/assets/c93154ca-b89f-4b69-b7d5-1aae5e582ad1" />
+
+---
+
+# ✨ Highlights
+
+✔️ Responsive Design
+
+✔️ Beautiful Animations
+
+✔️ Interactive Components
+
+✔️ Clean UI/UX
+
+✔️ Modern React Architecture
+
+✔️ Mobile Friendly
+
+✔️ Fast Performance
+
+✔️ Organized Project Structure
+
+---
+
+# 🚀 Built With
+
+| Technology | Purpose |
+|------------|---------|
+| ⚛ React 19 | Frontend Framework |
+| 📘 TypeScript | Type Safety |
+| ⚡ Vite | Build Tool |
+| 🎨 Chakra UI | UI Components |
+| 🎬 Framer Motion | Animations |
+| 🖼 React Icons | Icons |
+| 📱 Swiper | Carousel |
+| 🗂 Zustand | State Management |
+
+---
+
+# 📂 Project Structure
+
+```text
+src
+│
+├── components/
+│   ├── Hero
+│   ├── About
+│   ├── Skills
+│   ├── Projects
+│   ├── Contact
+│   └── Navbar
+│
+├── assets/
+├── api/
+├── Data/
+├── Types/
+│
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
+# 🎯 Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Responsive Layout
+- Smooth Scrolling
+- Animated Sections
+- Project Showcase
+- Skills Timeline
+- Contact Section
+- Download Resume
+- Interactive Desk Setup
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/FerdawsAnzer/Protfolio2.git
 ```
+
+Go into the project
+
+```bash
+cd Protfolio2
+```
+
+Install packages
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Create production build
+
+```bash
+npm run build
+```
+
+---
+## 👤 Author
+**Ferdaws Anzer**
+- LinkedIn: [ferdaws-anzer](https://www.linkedin.com/in/ferdaws-anzer-71152b29b)
+- GitHub: [@FerdawsAnzer](https://github.com/FerdawsAnzer)
