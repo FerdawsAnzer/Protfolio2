@@ -21,14 +21,21 @@ export function DeskSetupSection() {
     <section>
       <Fade duration={1500} delay={600} triggerOnce>
         <h2
-          className="fade-in"
-          style={{ animationDelay: "0.3s", marginTop: "0.5rem" }}
+          className="fade-in font-bold"
+          style={{
+            animationDelay: "0.3s",
+            marginTop: "0.5rem",
+            fontWeight: 600,
+          }}
         >
-          Backend-focused full-stack developer building scalable web
-          applications and real-time systems, with hands-on experience in API
-          design, real-time data processing, and IoT integration. Focused on
-          building efficient, reliable systems and solving practical problems
-          through software.
+          Software Engineering graduate building practical software, real-time
+          systems, and AI-powered applications.
+        </h2>
+        <br />
+        <h2>
+          I work across full-stack development, backend systems, IoT, and
+          real-time data processing, with a focus on building reliable software
+          and connecting different parts of a system together.
         </h2>
       </Fade>
       <Fade duration={1500} delay={700} triggerOnce>
